@@ -55,3 +55,21 @@ print(joined_sentence)  # Output: 'Python is great'
 # Checking for Substrings
 print("Python" in sentence)  # Output: True
 print("Java" in sentence)    # Output: False
+
+# Reversing a String
+text = "Python"
+reversed_text = text[::-1]
+print(reversed_text)  # Output: 'nohtyP'
+
+
+# Count Occurrences of a Character
+text = "hello world"
+count = text.count('l')
+print(count)  # Output: 3
+
+# Check if a String is a Palindrome
+text = input("Enter a string: ")
+if text == text[::-1]:
+    print("The string is a palindrome!")
+else:
+    print("The string is not a palindrome.")
