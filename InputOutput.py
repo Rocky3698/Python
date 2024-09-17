@@ -27,3 +27,7 @@ print(numbers)  # Output: [1, 2, 3, 4]
 numbers = input("Enter floating-point numbers separated by spaces: ").split()
 numbers = tuple(float(num) for num in numbers)  # Convert each element to a float and cast to a tuple
 print(numbers, type(numbers))  # Output: tuple of floats
+
+
+print("Rocky", end='')
+print("Rocky", end='\n')

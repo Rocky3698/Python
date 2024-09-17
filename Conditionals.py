@@ -1,46 +1,46 @@
-# age = int(input("Enter your age: "))
+age = int(input("Enter your age: "))
 
-# if age >= 18:
-#     print("You are an adult!")
-# else:
-#     print("You are a minor!")
-
-
-# score = int(input("Enter your score: "))
-
-# if score >= 90:
-#     print("Grade: A")
-# elif score >= 80:
-#     print("Grade: B")
-# elif score >= 70:
-#     print("Grade: C")
-# else:
-#     print("Grade: F")
+if age >= 18:
+    print("You are an adult!")
+else:
+    print("You are a minor!")
 
 
-# # Nested if Statements:
+score = int(input("Enter your score: "))
 
-# age = int(input("Enter your age: "))
-# is_student = input("Are you a student? (yes/no): ").lower()
-
-# if age < 18:
-#     if is_student == 'yes':
-#         print("You are a minor and a student.")
-#     else:
-#         print("You are a minor but not a student.")
-# else:
-#     print("You are an adult.")
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
+else:
+    print("Grade: F")
 
 
-# # Ternary (Conditional) Operator
-# age = int(input("Enter your age: "))
-# status = "Adult" if age >= 18 else "Minor"
-# print(status)
+# Nested if Statements:
 
-# # Chained Comparisons
-# x = 10
-# if 5 < x < 15:
-#     print("x is between 5 and 15")
+age = int(input("Enter your age: "))
+is_student = input("Are you a student? (yes/no): ").lower()
+
+if age < 18:
+    if is_student == 'yes':
+        print("You are a minor and a student.")
+    else:
+        print("You are a minor but not a student.")
+else:
+    print("You are an adult.")
+
+
+# Ternary (Conditional) Operator
+age = int(input("Enter your age: "))
+status = "Adult" if age >= 18 else "Minor"
+print(status)
+
+# Chained Comparisons
+x = 10
+if 5 < x < 15:
+    print("x is between 5 and 15")
 
 # Check if any number is greater than 10
 numbers = [4, 11, 15, 7, 3]
